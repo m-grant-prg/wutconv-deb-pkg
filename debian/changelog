@@ -1,4 +1,4 @@
-wutconv (1.2.0-0ubuntu22.04u1) UNRELEASED; urgency=medium
+wutconv (1.2.0-0ubuntu22.04u1) jammy; urgency=medium
 
   * Update gitattributes to v1.0.3
   * Update bootstrap.sh to v1.5.4
@@ -8,7 +8,7 @@ wutconv (1.2.0-0ubuntu22.04u1) UNRELEASED; urgency=medium
   * Run GitHub actions on Focal 20.04
   * Update Copyright for 2023.
 
- -- Mark Grant <m.grant.prg@gmail.com>  Thu, 02 Mar 2023 10:29:23 +0000
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 02 Mar 2023 10:31:06 +0000
 
 wutconv (1.1.4-0ubuntu22.04u1) jammy; urgency=medium
 
