@@ -1,3 +1,9 @@
+wutconv (1.1.4+deb11u3) UNRELEASED; urgency=medium
+
+  * Update Debian files Copyright for 2023.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 02 Mar 2023 09:29:05 +0000
+
 wutconv (1.1.4+deb11u2) bullseye; urgency=medium
 
   * Update comapibility level to 13.
