@@ -1,4 +1,4 @@
-wutconv (1.2.0+deb11+u1) bullseye; urgency=medium
+wutconv (1.2.0+deb11u1) bullseye; urgency=medium
 
   * Update gitattributes to v1.0.3
   - Update bootstrap.sh to v1.5.4
