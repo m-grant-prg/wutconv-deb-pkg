@@ -42,7 +42,7 @@ opts="searchmode=plain, \
 	mode=git, \
 	compression=gzip, \
 	dversionmangle=auto" \
-https://github.com/m-grant-prg/wutconv refs/tags/v@ANY_VERSION@ debian
+https://github.com/m-grant-prg/@PACKAGE@ refs/tags/v@ANY_VERSION@ debian
 
 # The 3 lines below could be appended to the line above to look for a PGP
 # signature. However, as supplied, it does not work.
@@ -57,7 +57,7 @@ https://github.com/m-grant-prg/wutconv refs/tags/v@ANY_VERSION@ debian
 # The regex below allows for tarball name formats of package-1.0.1.tar.gz,
 # package-1.0.1+rc1.tar.gz and package-1.0.1-4-g6650f8e.tar.gz.
 http://hermes.mgent.home/tarballrepos/source/ \
-	wutconv-(\d[\d.]*[\w+]*[\w-]*)@ARCHIVE_EXT@ debian
+	@PACKAGE@-(\d[\d.]*[\w+]*[\w-]*)@ARCHIVE_EXT@ debian
 
 # PGP signature mangle, so foo.tar.gz has foo.tar.gz.sig
 #opts="pgpsigurlmangle=s%$%.sig%"
