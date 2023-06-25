@@ -1,9 +1,9 @@
-wutconv (1.2.1-0ubuntu20.04u1) UNRELEASED; urgency=medium
+wutconv (1.2.1-0ubuntu20.04u1) focal; urgency=medium
 
   * Merge new upstream release.
   * Update watch file to support ~.
 
- -- Mark Grant <m.grant.prg@gmail.com>  Sun, 25 Jun 2023 14:11:38 +0100
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 25 Jun 2023 14:14:05 +0100
 
 wutconv (1.2.0-0ubuntu20.04u1) focal; urgency=medium
 
