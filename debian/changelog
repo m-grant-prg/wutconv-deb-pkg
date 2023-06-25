@@ -1,8 +1,8 @@
-wutconv (1.3.0+deb13u1) UNRELEASED; urgency=medium
+wutconv (1.3.0+deb13u1) testing; urgency=medium
 
   * Merge new upstream release.
 
- -- Mark Grant <m.grant.prg@gmail.com>  Sun, 25 Jun 2023 14:25:20 +0100
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 25 Jun 2023 14:26:11 +0100
 
 wutconv (1.2.1+deb11u2) bullseye; urgency=medium
 
