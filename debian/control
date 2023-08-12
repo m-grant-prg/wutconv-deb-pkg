@@ -3,7 +3,7 @@ Section: misc
 Priority: extra
 Maintainer: Mark Grant <m.grant.prg@gmail.com>
 Build-Depends: debhelper-compat (= 13), bash (>= 4.3), tar(>= 1.26),
-	txt2man(>= 1.5), txt2manwrap (>= 1.0)
+	txt2manwrap (>= 1.0)
 Standards-Version: 4.5.1
 Vcs-Git: https://github.com/m-grant-prg/wutconv.git
 Vcs-Browser: https://github.com/m-grant-prg/wutconv
