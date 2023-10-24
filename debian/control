@@ -2,15 +2,16 @@ Source: wutconv
 Section: misc
 Priority: extra
 Maintainer: Mark Grant <m.grant.prg@gmail.com>
-Build-Depends: debhelper-compat (= 13), bash (>= 4.3), tar(>= 1.26),
-	txt2manwrap (>= 1.0)
+Build-Depends: debhelper-compat (= 13), bash, tar,
+	txt2manwrap
 Standards-Version: 4.5.1
 Vcs-Git: https://github.com/m-grant-prg/wutconv.git
 Vcs-Browser: https://github.com/m-grant-prg/wutconv
 
 Package: wutconv
 Architecture: all
-Depends: bash (>= 4.3), util-linux(>=2.25.2), ${misc:Depends}
+Depends: bash, util-linux,
+	${misc:Depends}
 Description: Windows / Unix text file converter.
  A utility to convert line endings in one or more text files to Windows or Unix
  line endings.
