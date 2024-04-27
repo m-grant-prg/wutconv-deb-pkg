@@ -1,0 +1,90 @@
+#########################################################################
+#									#
+# Author: Copyright (C) 2015-2019, 2021-2023  Mark Grant		#
+#									#
+# This file is maintained in the project at:-				#
+#	https://github.com/m-grant-prg/project-misc			#
+#		new versions are merely copied to consumer projects.	#
+#									#
+# Released under the GPLv3 only.					#
+# SPDX-License-Identifier: GPL-3.0-only					#
+#									#
+# N.B.									#
+# If a file pattern to be ignored can only exist in a specific		#
+# subdirectory, please add it to a gitignore file in that subdirectory.	#
+#									#
+# N.B.									#
+# After changes to any gitignore file please run			#
+#		'git ls-files -i --exclude-standard'			#
+# to determine if any tracked files are now ignored.			#
+#									#
+#########################################################################
+
+#########################################################################
+#									#
+# Version	v1.0.12							#
+#									#
+#########################################################################
+
+
+# AutoTools
+compile
+config.guess
+config.sub
+configure
+configure.scan
+depcomp
+INSTALL
+install-sh
+ltmain.sh
+missing
+test-driver
+**/*.la
+**/*.lo
+**/*.o
+**/.deps/
+**/.dirstamp
+**/.libs/
+**/aclocal.*
+**/ar-lib
+**/autom4te.cache/
+**/build-aux/
+**/config.h.in
+**/libtool
+**/Makefile
+**/Makefile.in
+
+# Backup Files
+**/*~
+**/*.bak
+
+# C Extras
+**/cscope.*
+
+# Ctags
+**/tags
+**/tags.*
+
+# Editors
+**/*.swp
+
+# General
+**/*.log
+**/*.tar.gz
+**/*.tmp
+**/patches
+
+# Java Extras
+**/Version.java
+
+# My Project Structure
+**/atbuild
+**/conffiles
+
+# NetBeans
+**/build
+**/dist
+**/distribution
+**/target
+/nbproject/private/
+
