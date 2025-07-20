@@ -1,0 +1,17 @@
+Source: wutconv
+Section: misc
+Priority: extra
+Maintainer: Mark Grant <m.grant.prg@gmail.com>
+Build-Depends: debhelper-compat (= 13),
+	txt2manwrap
+Standards-Version: 4.5.1
+Vcs-Git: https://github.com/m-grant-prg/wutconv.git
+Vcs-Browser: https://github.com/m-grant-prg/wutconv
+
+Package: wutconv
+Architecture: all
+Depends: mgrant-obs-deb-keyring,
+	${misc:Depends}
+Description: Windows / Unix text file converter.
+ A utility to convert line endings in one or more text files to Windows or Unix
+ line endings.
