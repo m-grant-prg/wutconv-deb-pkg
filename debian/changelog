@@ -1,3 +1,9 @@
+wutconv (1.4.0+deb13u1) trixie; urgency=medium
+
+  * New upstream release
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 10 Mar 2026 09:48:40 +0000
+
 wutconv (1.4.0~rc3+deb13u1) trixie; urgency=medium
 
   * New upstream development version
